@@ -1,20 +1,39 @@
-# Project XYZ
+# Project Healthcare Insurance Analysis
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Project Healthcare Insurance Analysis** is a data analysis project focused on exploring and understanding the factors that influence healthcare insurance charges. Using a real-world dataset, this project investigates how personal attributes (such as age, gender, BMI, family size, and smoking habits) and geographic factors impact insurance costs. The analysis includes data cleaning, visualization, and predictive modeling to provide actionable insights for estimating healthcare expenses.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* The dataset used in this project is sourced from [Kaggle: Healthcare Insurance Dataset](https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/data). It contains records of individuals, capturing both personal and geographic attributes that may influence healthcare insurance charges.
+
+**Features include:**
+- `age`: Age of the primary beneficiary (numeric)
+- `sex`: Gender of the insured individual (`male`, `female`)
+- `bmi`: Body Mass Index, providing an indication of body fat (numeric)
+- `children`: Number of dependents covered by insurance (numeric)
+- `smoker`: Smoking status of the individual (`yes`, `no`)
+- `region`: Residential region in the US (`northeast`, `northwest`, `southeast`, `southwest`)
+- `charges`: Individual medical insurance costs billed by health insurance (numeric)
+
+This dataset enables analysis of how demographic and lifestyle factors, as well as geographic location, impact insurance costs. It is suitable for statistical analysis, data visualization, and predictive modeling.
 
 
 ## Business Requirements
-* Describe your business requirements
+* I will be focusing on 3 requirements.
+* 1. How smoking has an impact on insurance charges.
+* 2. Identify how insurance charges vary across different regions
+* 3. Explore the relationship between BMI and insurance charges
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+1. **Hypothesis:** Smokers have significantly higher insurance charges than non-smokers.
+   - **Validation** Use boxplots to visualise the distribution of charges for smokers vs non-smokers
+2. **Hypothesis** Insurance charges vary by geographic region.
+   - **Validation:** Calculate and visualize the average charges per region using a bar chart.
+3. **Hypothesis:** There is a positive correlation between BMI and insurance charges, especially for smokers.
+   - **Validation:** Create a scatter plot of BMI vs. insurance charges, colored by smoking status, and add a regression line to visually assess the trend between BMI and charges.
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.

@@ -17,12 +17,9 @@
 - `region`: Residential region in the US (`northeast`, `northwest`, `southeast`, `southwest`)
 - `charges`: Individual medical insurance costs billed by health insurance (numeric)
 
-This dataset enables analysis of how demographic and lifestyle factors, as well as geographic location, impact insurance costs. It is suitable for statistical analysis, data visualization, and predictive modeling.
-
-
 ## Business Requirements
 * I will be focusing on 3 requirements.
-* 1. How smoking has an impact on insurance charges.
+* 1. Does smoking effect insurance charges?
 * 2. Identify how insurance charges vary across different regions
 * 3. Explore the relationship between BMI and insurance charges
 
@@ -33,12 +30,14 @@ This dataset enables analysis of how demographic and lifestyle factors, as well 
 2. **Hypothesis** Insurance charges vary by geographic region.
    - **Validation:** Calculate and visualize the average charges per region using a bar chart.
 3. **Hypothesis:** There is a positive correlation between BMI and insurance charges, especially for smokers.
-   - **Validation:** Create a scatter plot of BMI vs. insurance charges, colored by smoking status, and add a regression line to visually assess the trend between BMI and charges.
+   - **Validation:** Create a scatter plot of BMI vs. insurance charges, coloured by smoking status, and add a regression line to visually assess the trend between BMI and charges.
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* The pokect followed these steps:
+* 1. Data Extraction: Load the CSV dataset using pandas.
+* 2. Data Cleaning and Trnaformation: Checked for missing values, duplicates and ensured correct data types.
+* 3. Data visualisation: Used matplotlib, seaborn and plotly to explore relationships and patterns
+* 4. Analysis and Interpretation: Each visualisation answered a business questions and helped confirm or reject the hypothesis
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
@@ -59,51 +58,18 @@ This dataset enables analysis of how demographic and lifestyle factors, as well 
 * How were data insights communicated to technical and non-technical audiences?
 * Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
 
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
-
 ## Main Data Analysis Libraries
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
-
 ## Credits 
-
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
+- I used chat gpt to help me in several parts when I wasn't sure what to do. For example, I didn't realise that I had to manually download the libraries that I needed, so I asked chat gpt what to do. Chat gpt also helped me ass the box around the legend in the scatterplot.
+- https://www.kaggle.com/code/chandradeepnarra3/insurance-data-insights - I had a look at other people's analysis of the dataset that I was using. I used the code from this person at the beginning of my code where i was eztracting the data. 
+- I used github copilot 
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.

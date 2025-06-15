@@ -82,9 +82,31 @@ px.scatter(df, x='bmi', y='charges', color='smoker', trendline='ols')
 
 ## Credits 
 ### Content 
-- I used chat gpt to help me in several parts when I wasn't sure what to do. For example, I didn't realise that I had to manually download the libraries that I needed, so I asked chat gpt what to do. Chat gpt also helped me ass the box around the legend in the scatterplot.
-- https://www.kaggle.com/code/chandradeepnarra3/insurance-data-insights - I had a look at other people's analysis of the dataset that I was using. I used the code from this person at the beginning of my code where i was eztracting the data. 
-- I used github copilot 
+- **ChatGPT (OpenAI)**  
+  I used ChatGPT extensively to guide me through the project when I encountered issues. Specific examples include:
+  - Understanding how to structure markdown cells and write hypotheses and objectives.
+  - Troubleshooting errors such as:
+    - The `plotly` error due to a missing `nbformat` installation.
+    - A `SyntaxError` with no clear trace — eventually resolved by restarting VS Code.
+    - Problems with activating the virtual environment in the terminal.
+  - Helping to format visualizations, like:
+    - Removing error bars from a seaborn bar plot.
+    - Adding a box around the legend in a Plotly scatter plot.
+  - Explaining technical concepts including:
+    - What `groupby().mean().reset_index()` does.
+    - The difference between `sns.barplot()` and `plt.bar()`.
+    - The purpose and function of legends and trendlines in data visualisations.
 
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+- **GitHub Copilot**  
+  GitHub Copilot in VS Code assisted with autocompleting repetitive code and suggesting clean syntax throughout the project, especially during data visualisation and transformation tasks.
+
+- **External Dataset Sources**  
+  I reviewed exploratory analysis notebooks from other users on [Kaggle](https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/data) to gain insight into typical approaches. I adapted some initial code for loading and inspecting the data (like using `.info()`, `.describe()`, and `.isnull().sum()`) from these examples.
+
+## Acknowledgements
+Thanks to:
+* Code Institute for the project structure
+* Kaggle for providing the dataset
+* OpenAI for ChatGPT
+* GitHub Copilot for coding support
+* Code Institute peers for being supportive along the way

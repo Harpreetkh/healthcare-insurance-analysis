@@ -80,6 +80,13 @@ sns.boxplot(data=df, x='smoker', y='charges')
 * plotly.express – for interactive charts
 px.scatter(df, x='bmi', y='charges', color='smoker', trendline='ols')
 
+## Reflection
+Working on this project was a great learning experience. At the beginning, I ran into a few bumps — like setting up the virtual environment and trying to get GitHub to stop asking me to log in every time I pushed something. It was a bit annoying, but after some trial and error (and help from ChatGPT), I managed to sort it all out.
+
+I also had to troubleshoot a few coding issues, especially when using Plotly. Sometimes the graph wouldn’t show or there were strange errors I didn’t understand at first. Each time, I took the time to dig into what was going wrong and learned a bit more about how things work in Python and Jupyter Notebooks.
+
+Throughout the project, I made sure to stay on track with the business goals and keep my code and markdown sections tidy and clear. If I were to improve anything, I’d maybe try to use even more visualisation types or dig deeper into prediction techniques. But overall, I’m happy with how the project turned out and I feel like I’ve come a long way from where I started.
+
 ## Credits 
 ### Content 
 - **ChatGPT (OpenAI)**  

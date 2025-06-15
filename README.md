@@ -47,16 +47,6 @@ I used a different type of visualisation for each of th business requirements. F
 I chose those specific visualisations as it was easier to see the relationship between the different factors and insurance charges. Also, it was appropriate for the type of data that was given.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
-
-## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
-
-## Dashboard Design
 * Descriptive statistics (describe(), groupby() methods)
 * Boxplots and bar charts for comparison
 * Scatter plots for correlation
@@ -65,9 +55,20 @@ I chose those specific visualisations as it was easier to see the relationship b
 **Alternative approaches**: Machine learning models could be used for prediction, but this was outside the scope of this exploratory analysis.
 **Use of AI tools**: ChatGPT was used to get help with coding issues, visualisation tweaks, and Markdown formatting.
 
+## Ethical considerations
+* This data did not include any personal identifiable information so there were no data privacy concerns.
+
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+**Challenges faced**:
+* Activating and using a virtual environment in VS Code. I wasn't sure how to do this.
+* Installing and managing required libraries. I assumed these would already be installed.
+* Plotly errors related to rendering in Jupyter.
+**Overcoming them**:
+* I used ChatGPT and Github Copilot in VSCode to troubleshoot technical issues.
+* I restarted kernels and updated environment settings.
+**Next steps**:
+* Including more data within the visualisations.
+* Explore more advanced modelling.
 
 ## Main Data Analysis Libraries
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.

@@ -6,7 +6,7 @@
 
 
 ## Dataset Content
-* The dataset used in this project is sourced from [Kaggle: Healthcare Insurance Dataset](https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/data). It contains records of individuals, capturing both personal and geographic attributes that may influence healthcare insurance charges.
+The dataset used in this project is sourced from [Kaggle: Healthcare Insurance Dataset](https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/data). It contains records of individuals, capturing both personal and geographic attributes that may influence healthcare insurance charges.
 
 **Features include:**
 - `age`: Age of the primary beneficiary (numeric)
@@ -18,29 +18,33 @@
 - `charges`: Individual medical insurance costs billed by health insurance (numeric)
 
 ## Business Requirements
-* I will be focusing on 3 requirements.
+I will be focusing on 3 requirements:
 * 1. Does smoking effect insurance charges?
-* 2. Identify how insurance charges vary across different regions
-* 3. Explore the relationship between BMI and insurance charges
+* 2. Identify how insurance charges vary across different regions.
+* 3. Explore the relationship between BMI and insurance charges.
 
 
 ## Hypothesis and how to validate?
 1. **Hypothesis:** Smokers have significantly higher insurance charges than non-smokers.
-   - **Validation** Use boxplots to visualise the distribution of charges for smokers vs non-smokers
+   - **Validation** Use boxplots to visualise the distribution of charges for smokers vs non-smokers.
 2. **Hypothesis** Insurance charges vary by geographic region.
    - **Validation:** Calculate and visualize the average charges per region using a bar chart.
 3. **Hypothesis:** There is a positive correlation between BMI and insurance charges, especially for smokers.
    - **Validation:** Create a scatter plot of BMI vs. insurance charges, coloured by smoking status, and add a regression line to visually assess the trend between BMI and charges.
 
 ## Project Plan
-* The pokect followed these steps:
+The project followed these steps:
 * 1. Data Extraction: Load the CSV dataset using pandas.
-* 2. Data Cleaning and Trnaformation: Checked for missing values, duplicates and ensured correct data types.
-* 3. Data visualisation: Used matplotlib, seaborn and plotly to explore relationships and patterns
-* 4. Analysis and Interpretation: Each visualisation answered a business questions and helped confirm or reject the hypothesis
+* 2. Data Cleaning and Transformation: Checked for missing values, duplicates and ensured correct data types.
+* 3. Data visualisation: Used matplotlib, seaborn and plotly to explore relationships and patterns.
+* 4. Analysis and Interpretation: Each visualisation answered a business question and helped confirm or reject the hypothesis.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+I used a different type of visualisation for each of th business requirements. For each question I used:
+1. Boxplot for comparing the distribution of smoker vs non smoker in comparison to charges.
+2. Barchart to show regional averages.
+3. Scatterplot with trendline for analysing correlation of BMI and smoking against insurance charges.
+I chose those specific visualisations as it was easier to see the relationship between the different factors and insurance charges. Also, it was appropriate for the type of data that was given.
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.

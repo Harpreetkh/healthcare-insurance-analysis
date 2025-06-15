@@ -71,7 +71,14 @@ I chose those specific visualisations as it was easier to see the relationship b
 * Explore more advanced modelling.
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* pandas – for data loading, cleaning, and transformation
+df = pd.read_csv('insurance.csv')
+* matplotlib – for static plots
+plt.figure(figsize=(8,6))
+* seaborn – for statistical visualisations
+sns.boxplot(data=df, x='smoker', y='charges')
+* plotly.express – for interactive charts
+px.scatter(df, x='bmi', y='charges', color='smoker', trendline='ols')
 
 ## Credits 
 ### Content 

@@ -89,7 +89,7 @@ Throughout the project, I made sure to stay on track with the business goals and
 
 ## Credits 
 ### Content 
-- **ChatGPT (OpenAI)**  
+- **ChatGPT**  
   I used ChatGPT extensively to guide me through the project when I encountered issues. Specific examples include:
   - Understanding how to structure markdown cells and write hypotheses and objectives.
   - Troubleshooting errors such as:

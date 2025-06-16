@@ -21,7 +21,7 @@ The dataset used in this project is sourced from [Kaggle: Healthcare Insurance D
 I will be focusing on 3 requirements:
 * 1. Does smoking effect insurance charges?
 * 2. Identify how insurance charges vary across different regions.
-* 3. Explore the relationship between BMI and insurance charges.
+* 3. Look into how BMI and whether someone smokes affects their insurance charges.
 
 
 ## Hypothesis and how to validate?
